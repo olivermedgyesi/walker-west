@@ -25,8 +25,7 @@ export function ImageCTA({
         className="-z-10 object-cover object-[center_60%]"
       />
       <div className="absolute inset-0 -z-10 bg-black/20" />
-      <div className="absolute inset-x-0 top-0 -z-10 h-2/5 bg-gradient-to-b from-cream via-cream/60 to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-3/5 bg-gradient-to-t from-espresso via-espresso/70 to-transparent" />
+      <div className="cta-fade absolute inset-0 -z-10" />
       <Grain />
 
       <div className="relative mx-auto w-full max-w-4xl px-6 py-32 text-center md:px-10 md:py-40">

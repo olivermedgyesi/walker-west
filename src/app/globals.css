@@ -51,6 +51,18 @@ body {
   mix-blend-mode: overlay;
 }
 
+/* Single full-bleed layer so no overlay edge sits mid-section (Safari draws a hairline there) */
+.cta-fade {
+  background: linear-gradient(
+    to bottom,
+    var(--color-cream) 0%,
+    color-mix(in oklab, var(--color-cream) 60%, transparent) 20%,
+    transparent 40%,
+    color-mix(in oklab, var(--color-espresso) 70%, transparent) 70%,
+    var(--color-espresso) 100%
+  );
+}
+
 @keyframes rise {
   from {
     opacity: 0;
