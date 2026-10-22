@@ -16,19 +16,18 @@ export function ImageCTA({
   narrow = false,
 }: ImageCTAProps) {
   return (
-    <section className="relative isolate flex min-h-[640px] items-center overflow-hidden text-cream md:min-h-[780px]">
+    <section className="relative isolate flex min-h-[480px] items-center overflow-hidden text-cream md:min-h-[560px]">
       <Image
-        src="/photos/downtown-gala-tent.jpg"
-        alt="A white gala marquee set up on a downtown plaza beside stone steps and a lion statue, with city towers behind"
+        src="/photos/egg-chair-lounge.jpg"
+        alt="A lounge of black egg chairs with sequin cushions around a white table with a white floral centrepiece, set along a glass railing"
         fill
         sizes="100vw"
         className="-z-10 object-cover object-[center_60%]"
       />
-      <div className="absolute inset-0 -z-10 bg-black/20" />
-      <div className="cta-fade absolute inset-0 -z-10" />
+      <div className="absolute inset-0 -z-10 bg-black/40" />
       <Grain />
 
-      <div className="relative mx-auto w-full max-w-4xl px-6 py-32 text-center md:px-10 md:py-40">
+      <div className="relative mx-auto w-full max-w-4xl px-6 py-24 text-center md:px-10 md:py-28">
         <h2 className="text-balance font-display text-4xl leading-[1.1] md:text-5xl lg:text-6xl">
           {heading}
         </h2>
