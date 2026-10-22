@@ -18,11 +18,11 @@ export function ImageCTA({
   return (
     <section className="relative isolate flex min-h-[480px] items-center overflow-hidden text-cream md:min-h-[560px]">
       <Image
-        src="/photos/egg-chair-lounge.jpg"
-        alt="A lounge of black egg chairs with sequin cushions around a white table with a white floral centrepiece, set along a glass railing"
+        src="/photos/chandelier-ballroom.jpg"
+        alt="A grand ballroom with crystal chandeliers and a coffered gold ceiling, set with round white-clothed tables facing a curtained stage"
         fill
         sizes="100vw"
-        className="-z-10 object-cover object-[center_60%]"
+        className="-z-10 object-cover object-center"
       />
       <div className="absolute inset-0 -z-10 bg-black/40" />
       <Grain />
@@ -35,7 +35,7 @@ export function ImageCTA({
           {body}
         </p>
         <div className="mt-10">
-          <ButtonLink href={button.href} variant="solid">
+          <ButtonLink href={button.href} variant="light">
             {button.label}
           </ButtonLink>
         </div>
