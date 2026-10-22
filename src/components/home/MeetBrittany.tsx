@@ -7,11 +7,11 @@ export function MeetBrittany() {
     <section className="grid grid-cols-1 bg-cream lg:grid-cols-2">
       <div className="relative aspect-[4/5] lg:aspect-auto lg:min-h-[760px]">
         <Image
-          src="/photos/brittany-saari.jpg"
-          alt="Brittany Saari, owner and principal planner of Walker & West, seated in a linen armchair beside hydrangeas"
+          src="/photos/brittany-seated-hydrangeas.jpg"
+          alt="Brittany Saari, owner and principal planner of Walker & West, seated on a chair in a dark blazer and jeans beside a bundle of hydrangeas"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
-          className="object-cover object-[center_35%]"
+          className="object-cover object-[center_75%]"
         />
         <Grain />
       </div>
