@@ -33,7 +33,7 @@ export function Services() {
 
         <div className="mt-12 grid grid-cols-1 gap-14 md:mt-16 md:grid-cols-2 md:gap-10 lg:gap-14">
           {services.map((service) => (
-            <Link key={service.href} href={service.href} className="group block">
+            <Link key={service.href} href={service.href} className="group flex flex-col">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
                   src={service.image}
@@ -49,10 +49,10 @@ export function Services() {
                   {service.title}
                 </h3>
               </div>
-              <p className="mt-8 max-w-md text-base leading-relaxed text-espresso/80">
+              <p className="mt-8 mb-8 max-w-md text-base leading-relaxed text-espresso/80">
                 {service.body}
               </p>
-              <span className="mt-8 inline-flex border border-espresso/60 px-8 py-4 font-caps text-xs uppercase tracking-[0.22em] text-espresso transition-colors duration-300 group-hover:bg-espresso group-hover:text-cream">
+              <span className="mt-auto inline-flex self-start border border-espresso/60 px-8 py-4 font-caps text-xs uppercase tracking-[0.22em] text-espresso transition-colors duration-300 group-hover:bg-espresso group-hover:text-cream">
                 {service.cta}
               </span>
             </Link>

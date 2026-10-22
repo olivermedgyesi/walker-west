@@ -62,6 +62,37 @@ export default function ContactPage() {
                 </dt>
                 <dd className="mt-1">Kelowna and the Okanagan</dd>
               </div>
+              {/* TODO: swap in the real profile URLs */}
+              <div>
+                <dt className="font-caps text-xs uppercase tracking-[0.2em] text-espresso/60">
+                  LinkedIn
+                </dt>
+                <dd className="mt-1">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-opacity hover:opacity-70"
+                  >
+                    Brittany Saari
+                  </a>
+                </dd>
+              </div>
+              <div>
+                <dt className="font-caps text-xs uppercase tracking-[0.2em] text-espresso/60">
+                  Instagram
+                </dt>
+                <dd className="mt-1">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-opacity hover:opacity-70"
+                  >
+                    Walker &amp; West Events
+                  </a>
+                </dd>
+              </div>
             </dl>
           </address>
         </div>

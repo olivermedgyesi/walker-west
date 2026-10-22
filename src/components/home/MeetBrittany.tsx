@@ -26,7 +26,8 @@ export function MeetBrittany() {
           </h2>
           <div className="mt-8 space-y-6 text-base leading-relaxed text-espresso/80 md:text-lg">
             <p>
-              I&apos;m an award-winning event planner and logistics specialist.
+              I&apos;m an award-winning event planner and catering logistics
+              specialist.
               I&apos;ve spent the last 17 years planning purpose-driven events
               across Canada. I&apos;ve done everything from multi-venue
               corporate galas to luxury social gatherings on private islands.

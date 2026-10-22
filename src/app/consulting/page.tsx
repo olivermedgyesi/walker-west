@@ -22,8 +22,8 @@ export default function ConsultingPage() {
         subhead="Brittany has worked with North America's leading catering company and Vancouver's most sought after venues. Now she puts that experience to work for the venues and caterers who host events every week."
         button={contact}
         image={{
-          src: "/photos/champagne-service.jpg",
-          alt: "A server pouring champagne into rows of flutes at a gala bar beneath a tall white floral arrangement",
+          src: "/photos/library-square-gala.jpg",
+          alt: "Round dinner tables in black linen with clear ghost chairs and candlelit centrepieces in a stone atrium",
         }}
       />
 
@@ -59,7 +59,7 @@ export default function ConsultingPage() {
         heading="Catering consulting"
         paragraphs={[
           "A great menu only goes so far if the service behind it can't keep up. We work with caterers and venue kitchens to build the catering models, staffing plans and event menus that still hold up when the room is full, and we train your team so the improvements stick long after we're gone. Whether you're serving 20 guests or 200, the experience should feel the same.",
-          "Brittany has spent most of her career in catering operations, the part guests never see but always feel. She managed catering at Brock House Restaurant in Vancouver, where she ran more than 200 events a year and reworked everything from the menus to the photography and marketing. Her focus in the corporate and DMC market grew while Brittany managed 1.8 million yearly sales as Event Planner with Culinary Capers Catering,",
+          "Brittany has spent most of her career in catering operations, the part guests never see but always feel. She managed catering at Brock House Restaurant in Vancouver, where she ran more than 200 events a year and reworked everything from the menus to the photography and marketing. At Earls Kitchen + Bar, she helped rebrand and relaunch The Loft, their Yaletown event space. Her focus in the corporate and DMC market grew while Brittany managed 1.8 million yearly sales as Event Planner with Culinary Capers Catering,",
           "Add in years of consulting on galas of up to 1,000 guests, and she knows exactly where service struggles and how to fix it before anyone notices.",
         ]}
         included={[
