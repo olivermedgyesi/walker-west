@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ButtonLink } from "@/components/site/ButtonLink";
 import { Grain } from "@/components/site/Grain";
+import { HorizontalLogo } from "@/components/site/Wordmark";
 
 export function Hero() {
   return (
@@ -20,12 +21,9 @@ export function Hero() {
         <Grain />
 
         <div className="rise relative z-10 flex h-full flex-col items-center justify-end px-6 pb-[6vh] text-center text-cream [text-shadow:0_2px_30px_rgba(0,0,0,0.3)]">
-          <p
-            role="img"
-            aria-label="Walker & West"
-            className="whitespace-nowrap font-display lowercase leading-none tracking-[-0.01em] text-[clamp(3.25rem,13vw,12rem)]"
-          >
-            walker &amp; west
+          <p className="w-full max-w-6xl drop-shadow-[0_2px_30px_rgba(0,0,0,0.3)]">
+            <span className="sr-only">Walker &amp; West, purpose driven events</span>
+            <HorizontalLogo className="w-full" />
           </p>
         </div>
       </section>

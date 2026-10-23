@@ -2,22 +2,22 @@ const events = [
   {
     name: "Surrey Mayor's Charity Ball",
     detail:
-      "Up to 1,000 guests each year from 2015 to 2018, raising over $1.5 million for the Surrey Firefighter Charitable Society",
+      "Up to 1,000 guests each year from 2015 to 2018, raising over $1.5 million for the Surrey Firefighter Charitable Society.",
   },
   {
     name: "Vancouver Art Gallery Summer Gala",
     detail:
-      "400 guests and $750,000 raised, and a Canadian Event Awards finalist for Best Catered Event",
+      "400 guests and $750,000 raised, and a Canadian Event Awards finalist for Best Catered Event.",
   },
   {
     name: "Aegis Appreciation Event",
     detail:
-      "1,200 guests across multiple venues at the Shipyards in North Vancouver, with a private performance by Kelly Clarkson",
+      "1,200 guests across multiple venues at the Shipyards in North Vancouver, with a private performance by Kelly Clarkson.",
   },
   {
     name: "Silversea Cruises World Tour Finale",
     detail:
-      "A 200 guest multi-venue experience in North Vancouver that won the 2025 Canadian Event Award for Best Catered Experience",
+      "A 200 guest multi-venue experience in North Vancouver that won the 2025 Canadian Event Award for Best Catered Experience.",
   },
 ];
 

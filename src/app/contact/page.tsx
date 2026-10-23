@@ -62,15 +62,14 @@ export default function ContactPage() {
                 </dt>
                 <dd className="mt-1">Kelowna and the Okanagan</dd>
               </div>
-              {/* TODO: swap in the real profile URLs */}
               <div>
                 <dt className="sr-only">Social</dt>
                 <dd className="flex items-center gap-5 pt-2">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/walker-west-events/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Brittany Saari on LinkedIn"
+                    aria-label="Walker &amp; West Events on LinkedIn"
                     className="transition-opacity hover:opacity-70"
                   >
                     <svg
@@ -83,7 +82,7 @@ export default function ContactPage() {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/walkerwestevents/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Walker &amp; West Events on Instagram"

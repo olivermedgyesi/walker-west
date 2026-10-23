@@ -26,7 +26,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 md:h-24 md:px-10 lg:px-14">
         <Link href="/" aria-label="Walker & West Events, home">
-          <Monogram className="text-[2rem] md:text-[2.5rem]" />
+          <Monogram className="h-8 md:h-10" />
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-10 lg:flex">
@@ -78,7 +78,7 @@ export function Header() {
               aria-label="Walker & West Events, home"
               onClick={() => setMenuOpen(false)}
             >
-              <Monogram className="text-[2rem]" />
+              <Monogram className="h-8" />
             </Link>
             <button
               type="button"

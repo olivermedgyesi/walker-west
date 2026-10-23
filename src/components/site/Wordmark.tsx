@@ -2,23 +2,54 @@ type WordmarkProps = {
   className?: string;
 };
 
-export function Monogram({ className = "" }: WordmarkProps) {
+// Logos are drawn as a CSS mask filled with currentColor, so they follow the
+// surrounding text colour (cream over photos, espresso on light backgrounds).
+function LogoMask({
+  src,
+  ratio,
+  className,
+}: {
+  src: string;
+  ratio: string;
+  className: string;
+}) {
   return (
     <span
-      className={`inline-block font-display leading-none tracking-[-0.06em] ${className}`}
-    >
-      W&amp;W
-    </span>
+      aria-hidden="true"
+      className={`inline-block bg-current ${className}`}
+      style={{
+        aspectRatio: ratio,
+        maskImage: `url(${src})`,
+        WebkitMaskImage: `url(${src})`,
+        maskSize: "contain",
+        WebkitMaskSize: "contain",
+        maskRepeat: "no-repeat",
+        WebkitMaskRepeat: "no-repeat",
+        maskPosition: "center",
+        WebkitMaskPosition: "center",
+      }}
+    />
+  );
+}
+
+export function Monogram({ className = "" }: WordmarkProps) {
+  return (
+    <LogoMask src="/brand/logo-monogram.png" ratio="1600 / 554" className={className} />
   );
 }
 
 export function Wordmark({ className = "" }: WordmarkProps) {
   return (
-    <span
-      className={`inline-flex flex-col font-display lowercase leading-[0.78] tracking-[-0.02em] ${className}`}
-    >
-      <span>walker</span>
-      <span>&amp;west</span>
-    </span>
+    <LogoMask src="/brand/logo-stacked.png" ratio="1600 / 804" className={className} />
+  );
+}
+
+export function HorizontalLogo({ className = "" }: WordmarkProps) {
+  return (
+    <LogoMask
+      src="/brand/logo-horizontal.png"
+      ratio="1600 / 297"
+      className={className}
+    />
   );
 }
