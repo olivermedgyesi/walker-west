@@ -118,15 +118,15 @@ export function ContactForm() {
 
       {isEvent && (
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          <label className="block">
+          <label className="flex flex-col justify-between">
             <span className={label}>Event date or rough timing (optional)</span>
             <input name="Event date or rough timing" className={field} />
           </label>
-          <label className="block">
+          <label className="flex flex-col justify-between">
             <span className={label}>Estimated guest count (optional)</span>
             <input name="Estimated guest count" className={field} />
           </label>
-          <label className="block">
+          <label className="flex flex-col justify-between">
             <span className={label}>Estimated event budget (optional)</span>
             <input name="Estimated event budget" className={field} />
           </label>

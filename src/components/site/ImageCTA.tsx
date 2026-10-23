@@ -18,11 +18,11 @@ export function ImageCTA({
   return (
     <section className="relative isolate flex min-h-[480px] items-center overflow-hidden text-cream md:min-h-[560px]">
       <Image
-        src="/photos/chandelier-ballroom.jpg"
-        alt="A grand ballroom with crystal chandeliers and a coffered gold ceiling, set with round white-clothed tables facing a curtained stage"
+        src="/photos/candlelit-aurora-dinner.jpg"
+        alt="A candlelit dinner table set with crystal glassware, printed menus and a loose floral centrepiece, glowing against a wall lit like the northern lights"
         fill
         sizes="100vw"
-        className="-z-10 object-cover object-center"
+        className="-z-10 object-cover object-[center_45%]"
       />
       <div className="absolute inset-0 -z-10 bg-black/40" />
       <Grain />

@@ -4,6 +4,7 @@ import { ButtonLink } from "@/components/site/ButtonLink";
 import { Grain } from "@/components/site/Grain";
 import { ImageCTA } from "@/components/site/ImageCTA";
 import { PageHero } from "@/components/site/PageHero";
+import { Monogram } from "@/components/site/Wordmark";
 
 export const metadata: Metadata = {
   title: "Brittany Saari, Kelowna Event Planner",
@@ -192,7 +193,7 @@ export default function AboutPage() {
                     aria-hidden="true"
                     className="flex size-24 shrink-0 items-center justify-center rounded-full border border-sage"
                   >
-                    <span className="font-display text-2xl text-sage">W&amp;W</span>
+                    <Monogram className="h-6 text-sage" />
                   </span>
                 )}
                 <span>
