@@ -48,7 +48,7 @@ export function HorizontalLogo({ className = "" }: WordmarkProps) {
   return (
     <LogoMask
       src="/brand/logo-horizontal.png"
-      ratio="1600 / 297"
+      ratio="1932 / 259"
       className={className}
     />
   );

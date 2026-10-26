@@ -31,10 +31,7 @@ export function Hero() {
       <section className="bg-cream">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-20 md:px-10 md:py-28 lg:grid-cols-12 lg:gap-16 lg:px-14">
           <div className="lg:col-span-6">
-            <p className="font-caps text-xs uppercase tracking-[0.3em] text-sage">
-              Purpose driven events
-            </p>
-            <h1 className="mt-6 text-balance font-display text-4xl leading-[1.1] md:text-5xl lg:text-6xl">
+            <h1 className="text-balance font-display text-4xl leading-[1.1] md:text-5xl lg:text-6xl">
               A Kelowna event planner for the nights that matter
             </h1>
           </div>

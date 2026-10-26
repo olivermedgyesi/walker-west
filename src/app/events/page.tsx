@@ -45,7 +45,6 @@ export default function EventsPage() {
         heading="Corporate events in Kelowna and the Okanagan"
         paragraphs={[
           "A corporate event carries your brand in every detail, from the invitation to the last shuttle home. We plan client appreciation events, company galas, VIP receptions and multi-venue experiences for businesses hosting in Kelowna and across the Okanagan, and each one looks and feels like your company.",
-          "Brittany managed the venue transformation and logistics for a 1,200-guest appreciation event across the Shipyards in North Vancouver.",
         ]}
         list={{
           label: "Good fit for:",
@@ -90,7 +89,7 @@ export default function EventsPage() {
       />
 
       <ServiceSection
-        heading="Private event and party planning in Kelowna"
+        heading="Private event planning in Kelowna"
         paragraphs={[
           "We take on a small number of private events each year, including milestone birthdays, Bar and Bat Mitzvah’s, anniversaries and family celebrations. You get the same planning and on-site leadership our corporate clients get, just for a guest list you know personally.",
         ]}
