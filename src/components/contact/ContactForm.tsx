@@ -13,6 +13,9 @@ const helpOptions = [
 
 const eventOptions = ["Corporate event", "Non-profit event", "Private event"];
 
+// Web3Forms access keys are designed to be public on the client.
+const WEB3FORMS_KEY = "0564d4fa-69bb-42c3-8d12-ca7cbadc38fb";
+
 const field =
   "mt-2 w-full border-0 border-b border-espresso/30 bg-transparent px-0 py-3 text-base text-espresso placeholder:text-espresso/40 focus:border-espresso focus:outline-none focus:ring-0";
 const label = "font-caps text-xs uppercase tracking-[0.2em] text-espresso/75";
@@ -38,7 +41,7 @@ export function ContactForm() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY,
+          access_key: WEB3FORMS_KEY,
           subject: `New inquiry: ${data["What can we help with?"]}`,
           from_name: "Walker & West website",
           ...data,
