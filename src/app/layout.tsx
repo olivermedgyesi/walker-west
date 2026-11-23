@@ -23,6 +23,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.walkerwestevents.com"),
+  alternates: { canonical: "./" },
   title: {
     default: "Kelowna Event Planner | Walker & West Events",
     template: "%s | Walker & West Events",
